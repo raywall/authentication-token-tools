@@ -1,0 +1,21 @@
+{
+	"PkgHandler": {
+		"Pattern": "/authentication-token-tools",
+		"StripPrefix": "/authentication-token-tools",
+		"Include": [
+			"/src/github.com/raywall/authentication-token-tools/*.go",
+            "/src/github.com/raywall/authentication-token-tools/examples/*.go",
+		],
+		"Exclude": [
+			"/src/github.com/raywall/authentication-token-tools/*_test.go",
+		],
+		"IgnoredSuffixes": [
+			"iface"
+		]
+	},
+	"Github": {
+		"Tag": "main",
+		"Repo": "/raywall/authentication-token-tools",
+		"UseGithub": true
+	}
+}
